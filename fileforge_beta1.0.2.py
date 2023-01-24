@@ -2,7 +2,7 @@
 #
 # Author: Mithlonde
 #
-# FileForge Beta v1.0.2 - Last updated: January 21, 2023
+# FileForge Beta v1.0.2 - Last updated: January 23, 2023
 # https://github.com/Mithlonde/FileForge 
 
 
@@ -72,7 +72,7 @@ def main(hostname, files_to_copy, editor):
         print(e)
 
 
-files_to_copy = ["/home/mithlonde/Documents/Vault101/notes.md"]
+files_to_copy = ["path/to/file1"]
 # Additional files to be copied can be add here
 # ["path/to/file1", "path/to/file2"]
 
