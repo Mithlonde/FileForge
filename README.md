@@ -1,4 +1,17 @@
-# FileForge
+<h2 class="menu-header" id="main">
+<a href="https://github.com/Mithlonde/Mithlonde">Root</a>&#xA0;&#xA0;&#xA0;
+<a href="https://github.com/Mithlonde/Mithlonde/blob/main/blog/index.md">Blog</a>&#xA0;&#xA0;&#xA0;
+<a href="https://github.com/Mithlonde/Mithlonde/blob/main/projects/index.md">Projects</a>&#xA0;&#xA0;&#xA0;
+<a href="https://github.com/Mithlonde/Mithlonde/blob/main/projects/index.md">~/FileForge</a>&#xA0;&#xA0;&#xA0;
+<a href="https://github.com/Mithlonde/Mithlonde/blob/main/all-writeups.md">Writeups</a>&#xA0;&#xA0;&#xA0;
+</h2>
+
+### Hi there 👋
+
+# 👾 Mithlonde
+└─$ cat projects/fileforge.md
+
+## FileForge
 Automate setting up information gathering directories and sub directories including files to be copied for pentest engagements.
 
 A command-line tool to automate the process of creating new directories, copying files, and open everything in Visual Studio Code by default. Whether you're working on an actual pentest, doing a CTF on TryHackMe, HackTheBox, PG, or any other platform, FileForge simplifies the process so you can quickly jump into your engagement with everything you need at your fingertips.
