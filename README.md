@@ -1,9 +1,9 @@
 # FileForge
-Automate setting up information gathering directories and subdirectories including files to be copied for pentest engagements.
+Automate setting up information gathering directories and sub directories including files to be copied for pentest engagements.
 
 A command-line tool to automate the process of creating new directories, copying files, and open everything in Visual Studio Code by default. Whether you're working on an actual pentest, doing a CTF on TryHackMe, HackTheBox, PG, or any other platform, FileForge simplifies the process so you can quickly jump into your engagement with everything you need at your fingertips.
 
-To use FileForge, simply run the program with your desired hostname and any files you want to copy. You can also specify the code editor of your choice. And with the ability to add additional subdirectories and files, FileForge is fully customizable to suit your needs.
+To use FileForge, simply run the program with your desired hostname and any files you want to copy. You can also specify the code editor of your choice. And with the ability to add additional sub directories and files, FileForge is fully customizable to suit your needs.
 
 ![image](example.png)
 
@@ -17,7 +17,7 @@ To use fileforge.py, you can follow these steps:
 1. Download the Python3 code from the GitHub repository, or use git to clone the repository to your local machine.
 2. Open a terminal or command prompt and navigate to the directory where the fileforge.py script is located.
 3. Run the script by typing `python3 fileforge.py` followed by the necessary command-line arguments, such as the directory name you wish to create.
-4. The script will then automatically create the new directory, create the preferred subdirectories, and copy all of the files specified in the code.
+4. The script will then automatically create the new directory, create the preferred sub directories, and copy all of the files specified in the code.
 
 _Note that the script requires Python 3 to be installed on your system, as well as the os, shutil, subprocess, and argparse Python packages. These packages should be automatically installed when you run the script for the first time, but if you encounter any issues, you may need to manually install them using pip._
 
@@ -43,7 +43,7 @@ FileForge uses Python 3 specific functionality and does not support Python 2.
 ```
 usage: FileForge [-h] [-e EDITOR] hostname [files_to_copy ...]
 
-Automate setting up information gathering directories and subdirectories including files to be copied for pentest engagements.
+Automate setting up information gathering directories and sub directories including files to be copied for pentest engagements.
 
 positional arguments:
   hostname              Preferred hostname of directory
@@ -55,7 +55,7 @@ options:
                         code editor to open the directory (default: code)
 
 Quick summary: FileForge can be used to automate setting up your information gathering archives. A task often repeated manually prior to any
-pentest engagement. It will quickly create a new directory with the provided hostname, create subdirectories for images and scan results, and
+pentest engagement. It will quickly create a new directory with the provided hostname, create sub directories for images and scan results, and
 copy files specified by the user (like your preferred note keeping template). Your FileForge will be opened in Visual Studio Code, ready set to
 go start your engagement!
 ```
