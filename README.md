@@ -1,22 +1,22 @@
 # FileForge
 Automate setting up information gathering directories and sub-directories including files to be copied for pentest engagements.
 
-![image](example.png)
-
-Introducing FileForge: A command-line tool to automate the process of creating new directories, copying files, and open everything in Visual Studio Code by default. Whether you're working on an actual pentest, doing a CTF on TryHackMe, HackTheBox, PG, or any other platform, FileForge simplifies the process so you can quickly jump into your engagement with everything you need at your fingertips.
+A command-line tool to automate the process of creating new directories, copying files, and open everything in Visual Studio Code by default. Whether you're working on an actual pentest, doing a CTF on TryHackMe, HackTheBox, PG, or any other platform, FileForge simplifies the process so you can quickly jump into your engagement with everything you need at your fingertips.
 
 To use FileForge, simply run the program with your desired hostname and any files you want to copy. You can also specify the code editor of your choice. And with the ability to add additional subdirectories and files, FileForge is fully customizable to suit your needs.
+
+![image](example.png)
 
 ## Dependencies:
 - **Python 3**: FileForge is a Python 3 script, so you'll need Python 3 installed on your system in order to run it.
 - **Visual Studio Code**: While it's not strictly necessary, Visual Studio Code is the default text editor and may be useful for working with FileForge's code. If you plan to use it, make sure to download and install it from the official website.
 
 ## Installation:
-To use FileForge.py, you can follow these steps:
+To use fileforge.py, you can follow these steps:
 
 1. Download the Python3 code from the GitHub repository, or use git to clone the repository to your local machine.
-2. Open a terminal or command prompt and navigate to the directory where the FileForge.py script is located.
-3. Run the script by typing `python3 FileForge.py` followed by the necessary command-line arguments, such as the directory name you wish to create.
+2. Open a terminal or command prompt and navigate to the directory where the fileforge.py script is located.
+3. Run the script by typing `python3 fileforge.py` followed by the necessary command-line arguments, such as the directory name you wish to create.
 4. The script will then automatically create the new directory, create the preferred sub directories, and copy all of the files specified in the code.
 
 _Note that the script requires Python 3 to be installed on your system, as well as the os, shutil, subprocess, and argparse Python packages. These packages should be automatically installed when you run the script for the first time, but if you encounter any issues, you may need to manually install them using pip._
