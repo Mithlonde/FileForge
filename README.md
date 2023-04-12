@@ -19,8 +19,7 @@ To use FileForge.py, you can follow these steps:
 3. Run the script by typing `python3 FileForge.py` followed by the necessary command-line arguments, such as the directory name you wish to create.
 4. The script will then automatically create the new directory, create the preferred sub directories, and copy all of the files specified in the code.
 
-
-Note that the script requires Python 3 to be installed on your system, as well as the os, shutil, subprocess, and argparse Python packages. These packages should be automatically installed when you run the script for the first time, but if you encounter any issues, you may need to manually install them using pip. 
+_Note that the script requires Python 3 to be installed on your system, as well as the os, shutil, subprocess, and argparse Python packages. These packages should be automatically installed when you run the script for the first time, but if you encounter any issues, you may need to manually install them using pip._
 
 To add this tool to your bash aliases, you'll need to edit your bash profile file (usually located at ~/.bash_profile or ~/.bashrc) and add a new alias.
 
@@ -85,7 +84,7 @@ A hostname that contains invalid characters: If the user provides a hostname tha
     - Rewrote program to be well-structured and easy to understand.
     - Debugged editor option: added if/else functionality to have -e EDITOR open files_to_copy.
     - Redirect the -e EDITOR output to /dev/null, detaching it from the terminal and continue running in the background after the script exits.
-- April 11, 2023:
+- April 12, 2023:
     - Took out misconfigured code to allow FileForge to open the complete directory created via `os.mkdir(hostname)` on line 34 (V1.0.3).
 
 ## To-Do List
