@@ -98,6 +98,7 @@ Each local.txt and proof.txt found must be shown in a screenshot that includes:
 
 
 =========================================================================
+
 Submission Checklist:
 * [ ] Initial Access Screenshot 
 * [ ] Privesc Screenshot 
