@@ -99,6 +99,11 @@ A hostname that contains invalid characters: If the user provides a hostname tha
     - Redirect the -e EDITOR output to /dev/null, detaching it from the terminal and continue running in the background after the script exits.
 - April 12, 2023:
     - Took out misconfigured code to allow FileForge to open the complete directory created via `os.mkdir(hostname)` on line 34 (V1.0.3).
+- April 19, 2024 (V1.0.4):
+    - Updated functions:
+        - Adding creation of vulns, and files folders.
+        - Also adding empty files: hashes, passwords, users.
+        - Included notes.md template.
 
 ## To-Do List
 - [x] Add how to add multiple files to script
