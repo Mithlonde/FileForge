@@ -2,7 +2,7 @@
 #
 # Author: Mithlonde
 #
-# FileForge Beta v1.0.3 - Last updated: April 12, 2023
+# FileForge v1.0.4 - Last updated: April 19, 2024
 # https://github.com/Mithlonde/FileForge 
 
 
@@ -34,6 +34,8 @@ def main(hostname, files_to_copy, editor):
         os.mkdir(hostname)
         os.mkdir(f"{hostname}/scans")
         os.mkdir(f"{hostname}/images")
+        os.mkdir(f"{hostname}/vulns")
+        os.mkdir(f"{hostname}/files")
         # Additional subdirectories can be added here
         # os.mkdir(f"{hostname}/NameYourFolder")
         os.chdir(hostname)
@@ -48,14 +50,19 @@ def main(hostname, files_to_copy, editor):
         else:
             print("No files to copy")
     
+    	# Create empty files
+        open("hashes", "w").close()
+        open("passwords", "w").close()
+        open("users", "w").close()
+        
         subprocess.Popen([editor, "."])
         print("FileForge created successfully, GL!")
 
     except Exception as e:
         print(e)
 
-# ----------- Specify Files ----------- #
-files_to_copy = ["path/to/file1", "path/to/file2"]
+# ----------- Copy Files ----------- #
+files_to_copy = ["path/to/notes.md", "path/to/file2"]
 # Additional files to be copied can be added here
 # ["path/to/file1", "path/to/file2"]
 
