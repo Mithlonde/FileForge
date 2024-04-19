@@ -105,7 +105,7 @@ Now that we have an initial shell on this machine as user, we can further enumer
 
 **Root Flag**:
 
-As you see we have successfully elevated our privileges to System and completing the task. Once again I used the command `dir "root.txt" /s` to search for the root flag.	
+As you see we have successfully elevated our privileges to System and completing the task.
 
 ```
 whoami && hostname && ip addr && cat user.txt 
